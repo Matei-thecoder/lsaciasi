@@ -1,0 +1,86 @@
+[
+  {
+    "tier": "Sponsori Premium",
+    "icon": "Star",
+    "color": "from-yellow-500 to-yellow-600",
+    "description": "Partenerii noștri strategici care susțin în mod constant misiunea LSAC",
+    "sponsors": [
+      {
+        "name": "Vivid Lounge",
+        "logo": "/images/sponsors/vivid.jpg",
+        "description": "Energie pozitivă, atmosferă cool și experiențe unice."
+      },
+      {
+        "name": "Iulius Mall Iași",
+        "logo": "/images/sponsors/iulius.jpg",
+        "description": ""
+      },
+      {
+        "name": "Vois",
+        "logo": "/images/sponsors/vois.jpg",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "tier": "Sponsori Oficiali",
+    "icon": "Award",
+    "color": "from-blue-500 to-blue-600",
+    "description": "Companii care sprijină evenimente specifice și inițiative studențești",
+    "sponsors": [
+      {
+        "name": "Maison du Café",
+        "logo": "/images/sponsors/maison.png",
+        "description": "Cafea de calitate și momente plăcute împreună"
+      },
+      {
+        "name": "Class",
+        "logo": "/images/sponsors/class.png",
+        "description": "Restaurante cu tradiție, gust autentic și servicii excelente"
+      },
+      {
+        "name": "Luk Computers",
+        "logo": "/images/sponsors/luk.png",
+        "description": "Soluții IT moderne, calculatoare performante și suport tehnic"
+      },
+      {
+        "name": "Laurinda Cofetărie Artizanală",
+        "logo": "/images/sponsors/laurinda.png",
+        "description": "Dulciuri artizanale, făcute cu grijă și pasiune"
+      },
+      {
+        "name": "Jägermeister",
+        "logo": "/images/sponsors/jager.png",
+        "description": "Gust unic și experiențe care aduc oamenii împreună"
+      },
+      {
+        "name": "Iulius Mall",
+        "logo": "/images/sponsors/iulius.jpg",
+        "description": "Loc de întâlnire, cumpărături și distracție alături de prieteni"
+      },
+      {
+        "name": "Royal Crown Cola",
+        "logo": "/images/sponsors/rcc.png",
+        "description": "Răcoritoare clasică, cu gust autentic și energizant."
+      },
+      {
+        "name": "Motivation Gym",
+        "logo": "/images/sponsors/motivation.png",
+        "description": "Locul unde motivația devine stil de viață"
+      }
+    ]
+  },
+  {
+    "tier": "Parteneri Comunitari",
+    "icon": "Handshake",
+    "color": "from-green-500 to-green-600",
+    "description": "Organizații locale care colaborează cu LSAC pentru dezvoltarea comunității",
+    "sponsors": [
+      {
+        "name": "Zbor Hub",
+        "logo": "/images/sponsors/zbor.webp",
+        "description": "Spațiu creativ pentru învățare, colaborare și dezvoltare"
+      }
+    ]
+  }
+]
