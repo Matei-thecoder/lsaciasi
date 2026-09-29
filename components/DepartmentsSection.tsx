@@ -24,11 +24,11 @@ export function DepartmentsSection() {
       description: "Motorul financiar și strategic al proiectelor LSAC.",
       director: {
         name: "Liteanu-Ingrid",
-        photo: "/images/team/directors/fr_dir.jpg"
+        photo: "/images/team/directors/fr_dir.webp"
       },
       assistantDirector: {
         name: "Mănăstireanu Andrei",
-        photo: "/images/team/directors/fr_dir_adj.jpg"
+        photo: "/images/team/directors/fr_dir_adj.webp"
       },
       responsibilities: [
         "Elaborează proiectele oficiale ale evenimentelor",
@@ -47,11 +47,11 @@ export function DepartmentsSection() {
       description: "Inima organizației – construiește echipe și menține motivația.",
       director: {
         name: "Buzato Lorenzo",
-        photo: "/images/team/directors/hr_dir.jpg"
+        photo: "/images/team/directors/hr_dir.webp"
       },
       assistantDirector: {
         name: "Ciurușniuc Diana",
-        photo: "/images/team/directors/hr_dir_adj.jpg"
+        photo: "/images/team/directors/hr_dir_adj.webp"
       },
       responsibilities: [
         "Organizarea procesului de recrutare, selecție și integrare a noilor voluntari",
@@ -69,11 +69,11 @@ export function DepartmentsSection() {
       description: "Suportul tehnic al organizației, asigurând o prezență digitală solidă.",
       director: {
         name: "Vesel Denis Matei",
-        photo: "/images/team/directors/it_dir.jpg"
+        photo: "/images/team/directors/it_dir.webp"
       },
       assistantDirector: {
         name: "Hamciuc Cezar",
-        photo: "/images/team/directors/it_dir_adj.jpg"
+        photo: "/images/team/directors/it_dir_adj.webp"
       },
       responsibilities: [
         "Creează și administrează site-urile proiectelor LSAC",
@@ -91,11 +91,11 @@ export function DepartmentsSection() {
       description: "Creativitatea lor se vede în fiecare proiect: fața vizibilă a LSAC în ochii publicului.",
       director: {
         name: "Diaconu Andrei",
-        photo: "/images/team/directors/design_dir.jpg"
+        photo: "/images/team/directors/design_dir.webp"
       },
       assistantDirector: {
         name: "Crivoi Tudor",
-        photo: "/images/team/directors/design_dir_adj.jpg"
+        photo: "/images/team/directors/design_dir_adj.webp"
       },
       responsibilities: [
         "Realizează materiale grafice: afișe, flyere, bannere, video-uri promoționale",
@@ -112,11 +112,11 @@ export function DepartmentsSection() {
       description: "Vocea LSAC în exterior, mereu conectat cu publicul și partenerii.",
       director: {
         name: "Grigoruță Ecaterina",
-        photo: "/images/team/directors/pr_dir.jpg"
+        photo: "/images/team/directors/pr_dir.webp"
       },
       assistantDirector: {
         name: "Cojocariu Andrei",
-        photo: "/images/team/directors/pr_dir_adj.jpg"
+        photo: "/images/team/directors/pr_dir_adj.webp"
       },
       responsibilities: [
         "Promovează evenimentele LSAC în mediul online și offline",
@@ -134,11 +134,11 @@ export function DepartmentsSection() {
       description: "Departamentul care ne reamintește că, dincolo de proiecte, suntem oameni care cresc împreună.",
       director: {
         name: "Gavrilescu Denisa",
-        photo: "/images/team/directors/ent_dir.jpg"
+        photo: "/images/team/directors/ent_dir.webp"
       },
       assistantDirector: {
         name: "Butanaru Giulia",
-        photo: "/images/team/directors/ent_dir_adj.jpg"
+        photo: "/images/team/directors/ent_dir_adj.webp"
       },
       responsibilities: [
         "Organizarea de evenimente interne recreative, precum seri de jocuri, petreceri tematice, picnicuri",

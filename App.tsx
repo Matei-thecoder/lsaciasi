@@ -5,14 +5,15 @@ import { LoadingScreen } from './components/LoadingScreen'
 import { Header } from './components/Header'
 import { HeroSection } from './components/HeroSection'
 import { DepartmentsSection } from './components/DepartmentsSection'
+import { NextEvent } from './components/NextEvent'
 import { EventsSection } from './components/EventsSection'
 import { LeadershipSection } from './components/LeadershipSection'
 import { SponsorsSection } from './components/SponsorsSection'
 import { FAQSection } from './components/FAQSection'
 import { Footer } from './components/Footer'
 import { ContactPopup } from './components/ContactPopup'
-import { LanPartyInscriereSection } from './components/LanPartyInscriereSection'
-import { ITMarathonInscriereSection } from './components/ITMarathonInscriereSection'
+//import { LanPartyInscriereSection } from './components/LanPartyInscriereSection'
+//import { ITMarathonInscriereSection } from './components/ITMarathonInscriereSection'
 
 import InscriereModal_LAN from './components/InscriereModal_LAN'
 
@@ -33,9 +34,9 @@ export default function App() {
     setIsContactPopupOpen(false)
   }
 
-  const handleOpenInscriere = () => {
+ /* const handleOpenInscriere = () => {
     setIsInscriereOpen(true)
-  }
+  }*/
 
   const handleCloseInscriere = () => {
     setIsInscriereOpen(false)
@@ -55,6 +56,7 @@ export default function App() {
                   <HeroSection />
                   {/*<LanPartyInscriereSection onInscriereClick={handleOpenInscriere} />
                   <ITMarathonInscriereSection  />*/}
+                  <NextEvent />
                   <DepartmentsSection />
                   <EventsSection />
                   <LeadershipSection />
