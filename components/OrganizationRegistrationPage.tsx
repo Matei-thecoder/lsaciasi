@@ -11,6 +11,7 @@ export function OrganizationRegistrationPage() {
   const [selectedDay, setSelectedDay] = useState('')
   const [selectedHour, setSelectedHour] = useState('18')
   const [selectedMinute, setSelectedMinute] = useState('30')
+  const [gdprAccepted, setGdprAccepted] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
 
   const handleDepartmentToggle = (department: string) => {
@@ -69,6 +70,11 @@ export function OrganizationRegistrationPage() {
 
     if (selectedDepartments.length === 0) {
       alert('Te rugăm să alegi cel puțin un departament.')
+      return
+    }
+
+    if (!gdprAccepted) {
+      alert('Trebuie să accepți termenii GDPR pentru a trimite formularul.')
       return
     }
 
@@ -387,6 +393,22 @@ export function OrganizationRegistrationPage() {
             <input type="hidden" name="departamente" value={selectedDepartments.join(', ')} />
             <input type="hidden" name="ziPreferata" value={selectedDay} />
             <input type="hidden" name="oraPreferata" value={`${selectedHour}:${selectedMinute}`} />
+
+            <div className="lg:col-span-2 space-y-3 pt-2">
+              <label className="flex items-start gap-3 rounded-2xl border border-white/20 bg-white/50 px-4 py-3 text-sm text-gray-700 shadow-sm dark:bg-gray-900/60 dark:text-gray-200">
+                <input
+                  type="checkbox"
+                  checked={gdprAccepted}
+                  onChange={(event) => setGdprAccepted(event.target.checked)}
+                  className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                />
+                <span>
+                  Sunt de acord ca datele mele personale să fie procesate în scopul înscrierii în organizație, conform
+                  {' '}
+                  <span className="font-medium text-blue-600 dark:text-blue-400">Politicii GDPR</span>.
+                </span>
+              </label>
+            </div>
 
             <div className="lg:col-span-2 flex flex-col items-center justify-center gap-4 pt-2 sm:flex-row">
               <Button type="submit" className="min-w-[220px] rounded-2xl bg-blue-600 px-6 py-3 text-base font-semibold text-white hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600">
