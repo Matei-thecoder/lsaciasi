@@ -20,22 +20,20 @@ export function NextEvent() {
                 </span>
 
                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
-                  Campus Connect
+                  Prima Adunare Generala
                 </h3>
 
                 <p className="mt-4 text-base leading-7 text-gray-600 dark:text-gray-300">
-                  Descoperă oportunități, întâlnește oameni pasionați și
-                  conectează-te cu comunitatea studențească într-un eveniment
-                  dedicat dezvoltării personale și profesionale.
+                  Vino la primul AG din acest an pentru a descoperi membrii LSAC IASI. Exploreaza departamentele si spune DA uneia dintre cele mai frumoase experiente pe care le poate avea un student la AC IASI.
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-300">
-                  <span>📅 26-27 septembrie</span>
-                  <span>📍 Iași</span>
+                  <span>📅 1 octombrie</span>
+                  <span>📍 Amfiteatrul AC-01</span>
                 </div>
               </div>
 
-              <div className="flex w-full shrink-0 flex-col gap-3 sm:w-auto">
+              {/*<div className="flex w-full shrink-0 flex-col gap-3 sm:w-auto">
                 <a
                   href="https://forms.gle/tEWKu6rtSbQYaWmr5"
                   className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-3 font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
@@ -50,7 +48,7 @@ export function NextEvent() {
                 >
                   Află mai multe
                 </a>
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>
