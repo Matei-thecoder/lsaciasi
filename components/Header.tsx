@@ -28,6 +28,7 @@ export function Header({ onContactClick }: HeaderProps) {
     { name: 'Evenimente', href: '#evenimente' },
     { name: 'Conducere', href: '#conducere' },
     { name: 'Sponsori', href: '#sponsori' },
+    { name: 'Înscriere', href: '/inscriere' },
     { name: 'Contact', href: '#contact' },
     { name: 'FAQ', href: '#faq' },
   ]
@@ -38,6 +39,8 @@ export function Header({ onContactClick }: HeaderProps) {
       onContactClick()
     } else if (href === '#') {
       window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else if (href.startsWith('/')) {
+      window.location.href = href
     } else {
       const element = document.querySelector(href)
       if (element) {

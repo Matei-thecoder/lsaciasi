@@ -12,6 +12,7 @@ import { SponsorsSection } from './components/SponsorsSection'
 import { FAQSection } from './components/FAQSection'
 import { Footer } from './components/Footer'
 import { ContactPopup } from './components/ContactPopup'
+import { OrganizationRegistrationPage } from './components/OrganizationRegistrationPage'
 //import { LanPartyInscriereSection } from './components/LanPartyInscriereSection'
 //import { ITMarathonInscriereSection } from './components/ITMarathonInscriereSection'
 
@@ -74,6 +75,8 @@ export default function App() {
                 />
               </div>
             } />
+
+            <Route path="/inscriere" element={<OrganizationRegistrationPage />} />
           </Routes>
         )}
       </ThemeProvider>
