@@ -20,16 +20,19 @@ export function NextEvent() {
                 </span>
 
                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
-                  Prima Adunare Generala
+                  Inscrieri LSAC IASI
                 </h3>
 
+                {/*<p className="mt-4 text-base leading-7 text-gray-600 dark:text-gray-300">
+                  Vio la primul AG din acest an pentru a descoperi membrii LSAC IASI. Exploreaza departamentele si spune DA uneia dintre cele mai frumoase experiente pe care le poate avea un student la AC IASI.
+                </p>*/}
                 <p className="mt-4 text-base leading-7 text-gray-600 dark:text-gray-300">
-                  Vino la primul AG din acest an pentru a descoperi membrii LSAC IASI. Exploreaza departamentele si spune DA uneia dintre cele mai frumoase experiente pe care le poate avea un student la AC IASI.
+                  Înscrie-te în cea mai tare experiență a studenției tale și alătură-te echipei noastre!                
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-4 text-sm text-gray-600 dark:text-gray-300">
-                  <span>📅 1 octombrie</span>
-                  <span>📍 Amfiteatrul AC-01</span>
+                  <span>📅 3-6 octombrie</span>
+                  <span>📍 Sediul LSAC - T19</span>
                 </div>
               </div>
 
@@ -49,6 +52,22 @@ export function NextEvent() {
                   Află mai multe
                 </a>
               </div>*/}
+              <div className="flex w-full shrink-0 flex-col gap-3 sm:w-auto">
+                <a
+                  href="/inscriere"
+                  className="inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-blue-600 to-cyan-600 px-6 py-3 font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+                >
+                  Înscrie-te acum
+                  <span className="ml-2" aria-hidden="true">→</span>
+                </a>
+
+                {/*<a
+                  href="https://campusconnect.lsaciasi.ro"
+                  className="inline-flex items-center justify-center rounded-xl border-2 border-cyan-600 px-6 py-3 font-semibold text-cyan-700 transition-colors hover:bg-cyan-50 dark:text-cyan-400 dark:hover:bg-cyan-950/30"
+                >
+                  Află mai multe
+                </a>*/}
+              </div>
             </div>
           </div>
         </div>
